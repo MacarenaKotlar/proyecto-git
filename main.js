@@ -1,4 +1,6 @@
-function saludo(nombre, mensaje, hora) {
-console.log(`${mensaje}, ${nombre}. Son las ${hora}.`);
+function saludo(nombre, mensaje) {
+console.log(`${mensaje}, ${nombre}!`);
 }
-saludo("Rosario", "Buenos días", "10:00 AM");
+
+saludo("Rosario", "¡Hola");
+saludo("Pepe", "¡Buen trabajo");
