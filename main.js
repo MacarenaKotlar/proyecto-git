@@ -1,6 +1,3 @@
-function saludo(nombre, mensaje) {
-console.log(`${mensaje}, ${nombre}!`);
+function saludo(nombre, edad) {
+console.log(`Hola ${nombre}, tienes ${edad} años.`);
 }
-
-saludo("Rosario", "¡Hola");
-saludo("Pepe", "¡Buen trabajo");
